@@ -1,5 +1,5 @@
 
-pragma solidity 0.5.16;
+pragma solidity 0.8.0;
 // SPDX-License-Identifier: MIT
 abstract contract BPContract{
 function protect( address sender, address receiver, uint256 amount ) external virtual;
